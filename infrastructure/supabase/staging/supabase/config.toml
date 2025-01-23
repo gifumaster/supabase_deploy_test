@@ -152,7 +152,7 @@ otp_expiry = 3600
 # content_path = "./supabase/templates/invite.html"
 
 [auth.email.template.recovery]
-subject = env(SECRET_TITLE)
+subject = "env(SECRET_TITLE)"
 content_path = "../templates/recovery.html"
 
 [auth.sms]
